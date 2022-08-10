@@ -1,0 +1,39 @@
+#editor-container {
+	height: 375px;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+	content: "Sofia";
+	font-family: "Sofia", sans-serif;
+}
+
+.ql-font-sofia {
+	font-family: "Sofia", sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="sofia"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="sofia"]::before {
+	content: "Sofia";
+	font-family: "Sofia", sans-serif;
+}
+
+.ql-font-roboto {
+	font-family: "Roboto", sans-serif;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="roboto"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="roboto"]::before {
+	content: "Roboto";
+	font-family: "Roboto", sans-serif;
+}
+
+.ql-font-monospace {
+	font-family: monospace;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="monospace"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before {
+	content: "Roboto";
+	font-family: monospace;
+}

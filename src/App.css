@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+.line-clamp-3 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 7;
+}
+
+.text-editor {
+	width: 1086px;
+	margin: 0 auto;
+}
+.ql-editor {
+	min-height: 400px;
+}
+
+.pre {
+	white-space: pre-wrap !important;
+}
+
+.img-fluid {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+pre.ql-syntax {
+    background-color: #23241f;
+    color: #f8f8f2;
+    overflow: visible;
+}
